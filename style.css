@@ -331,9 +331,9 @@ small{
     nav ul li a{
         color: white;
     }
-}
-
-.menu-icon{
+    
+    .menu-icon{
     display: block;
     cursor: pointer;
+    }
 }
