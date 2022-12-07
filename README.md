@@ -1,7 +1,4 @@
-<div align= "center">
-<img width = 500 src="images/Ecommerce.png">
-
-# E-Commerce-Website
+# E-Commerce Website
 
 - This repository contains the 'Red Store' sports E-Commerce Website.
 - You can contribute to this repository either by fixing existing issues or creating new issues on your own.
