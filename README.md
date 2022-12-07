@@ -1,3 +1,6 @@
+<img src = "images/Ecommerce.png">
+
+
 # E-Commerce Website
 
 - This repository contains the 'Red Store' sports E-Commerce Website.
