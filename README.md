@@ -1,4 +1,7 @@
 
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/95542633/206222655-7a1fcfb8-3fcf-4c74-a768-12cfef30ba18.png">
+
+
 # E-Commerce Website
 
 - This repository contains the 'Red Store' sports E-Commerce Website.
