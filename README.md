@@ -15,8 +15,6 @@ https://i-ujjwaljha.github.io/E-Commerce-Website/
 
 # Steps For Contribution⚡
 
-0. Star 
-
 1. Fork 
 
 2. Clone the forked repository.
