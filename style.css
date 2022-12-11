@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cabin:ital,wght@1,600&family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +24,15 @@ body{
     display: flex;
     align-items: center;
     padding: 20px;
+    box-shadow: 20px 10px 400px rgba(0, 0, 0, 0.5);
+    /* width: 111%; */
+    /* background-color: #000; */
+    margin-left: 2px;
+    margin-right: 2px;
+    font-family: 'Bree Serif', serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Poppins', sans-serif;
+
 }
 
 nav{
@@ -39,11 +49,20 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
+    padding: 6px;
 }
+
+nav  ul li:hover {
+    border: 2px solid #fd3f75;
+    border-radius: 25px;
+    background-color: rgb(254, 205, 205);
+    color: #125d03;
+    /* padding: 6px; */
+  }
 
 a{
     text-decoration: none;
-    color: #555;
+    color: #24262b;
 }
 
 p{
@@ -51,10 +70,10 @@ p{
 }
 
 .container{
-    max-width: 1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    /* max-width: 1350px; */
+    /* margin: auto; */
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
 }
 
 .row{
@@ -62,6 +81,7 @@ p{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-left: 30px;
 }
 
 .col-2{
