@@ -191,7 +191,10 @@ h4{
 .col-4:hover{
     transform: translateY(-5px);
 }
-
+.about{
+    height: 100vh;
+    width: 100%;
+}
 .about .row{
     display: flex;
     align-items: center;
@@ -200,7 +203,7 @@ h4{
 }
 
 .about .row .image{
-    flex: 30rem;
+    flex:20rem;
 }
 
 .about .row .image img{
@@ -218,20 +221,23 @@ h4{
         border-radius: var(--border-radius);
     }
 }
-
+span a{
+    color: #ff523b;
+}
 .about .row .content{
     flex:1 1 42rem;
 }
 
 .about .row .content .title{
-    color:var(--main-color);
-    font-size: 3rem;
+    color: #555;
+    font-size: 2.5rem;
+    font-weight: 900;
     line-height: 1.8;
 }
 
 .about .row .content p{
     color:var(--main-color);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.8;
     padding:1rem 0;
 }
