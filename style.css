@@ -39,7 +39,7 @@ body::before{
     display: flex;
     align-items: center;
     padding: 20px;
-    box-shadow: 20px 10px 400px rgba(0, 0, 0, 0.5);
+    box-shadow: 20px 10px 400px rgba(255, 185, 185, 0.788);
     /* width: 111%; */
     /* background-color: #000; */
     margin-left: 2px;
