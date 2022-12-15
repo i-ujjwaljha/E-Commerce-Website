@@ -14,12 +14,8 @@
 }
 ::selection{
     color: red;
-    scroll-behavior: smooth;
 }
 
-html {
-    scroll-behavior: smooth;
-  }
 
 body{
     font-family: 'Poppins', sans-serif;
