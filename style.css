@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cabin:ital,wght@1,600&family=Poppins&display=swap');
 *{
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -80,12 +81,6 @@ p{
     color: #555;
 }
 
-.container{
-    /* max-width: 1350px; */
-    /* margin: auto; */
-    /* padding-left: 25px; */
-    /* padding-right: 25px; */
-}
 
 .row{
     display: flex;
@@ -109,6 +104,7 @@ p{
     font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
+    overflow: hidden;
 }
 
 .btn{
@@ -189,6 +185,8 @@ p{
 h4{
     color: #555;
     font-weight: normal;
+    overflow: hidden;
+
 }
 
 .col-4 p{
@@ -204,7 +202,7 @@ h4{
 }
 .about{
     height: 100vh;
-    width: 100%;
+    width: 98%;
 }
 .about .row{
     display: flex;
@@ -280,6 +278,8 @@ span a{
     font-size: 1.7rem;
     padding-top: 1rem;
     color:var(--main-color);
+    overflow: hidden;
+
 }
 
 
@@ -335,7 +335,7 @@ small{
     width: 1200px;
     /* background-color: red; */
     /* width: 100%; */
-    margin: 200px;
+    margin: 80px;
     
     overflow: hidden;
     padding: 80px 0;
@@ -595,7 +595,7 @@ small{
     line-height: 65px;
     padding-left: 50px;
     font-size: 18px;
-    margin-top: 120px;
+    margin-top: 10px;
   
   }
   
@@ -623,6 +623,7 @@ small{
     text-transform: uppercase;
     margin-bottom: 60px;
     align-self: flex-start;
+    overflow: hidden;
   }
   
   .contact-form .text-box{
@@ -683,8 +684,7 @@ small{
     background: #0582E3;
   }
   
-  .footer{
-    display: flex;
+  .footer{  
     justify-content: center;
     align-items: center;
     background-color: black;
@@ -746,7 +746,7 @@ small{
     background: black;
     color: #8a8a8a;
     font-size: 14px;
-    padding: 6px 0 20px;
+    width: 100%; 
  }
 
  .footer p{
@@ -756,6 +756,8 @@ small{
  .footer h3{
     color: white;
     margin-bottom: 20px;
+    overflow: hidden;
+
  }
 
  .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
