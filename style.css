@@ -33,7 +33,7 @@ body::before{
     z-index: -1;
 }
 .navbar{
-    position: fixed;
+    position: relative;
     overflow: hidden;
     top: 0;
     width: 100%;
@@ -72,18 +72,18 @@ nav ul li{
 nav  ul li:hover {
     border: 2px solid #fd3f75;
     border-radius: 25px;
-    background-color: rgb(254, 205, 205);
-    color: #125d03;
+    background-color: rgb(254, 204, 204);
+    color: rgb(25, 125, 25);
     /* padding: 6px; */
   }
 
 a{
     text-decoration: none;
-    color: #24262b;
+    color: #424248;
 }
 
 p{
-    color: #555;
+    color: rgb(77, 75, 75);
 }
 
 
